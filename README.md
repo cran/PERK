@@ -1,0 +1,77 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# PERK
+
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jkkishore85/PERK/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jkkishore85/PERK/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/PERK)](https://CRAN.R-project.org/package=PERK)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PERK)](https://CRAN.R-project.org/package=PERK)
+<!-- badges: end -->
+
+## Description
+
+`PERK` is an R package containing a tool (Shiny App) to predict and
+visualize environmental concentration and risk using pharmaceutical
+prescription data collected at fine spatial resolution.
+
+The tool helps users to input their measured concentration, to compare
+the predicted (PEC) and measured concentrations (MEC) of the
+pharmaceuticals by means of the PEC/MEC ratio, to establish whether the
+predicted equations used tend to underestimate or overestimate measured
+values.
+
+It provides a consistent interactive user interface in a familiar
+dashboard layout, enabling users to visualise predicted values and
+compare with their measured values without any hassles. Users can
+download data and graphs generated using the tool in .csv or publication
+ready images.
+
+## Getting started
+
+Although the main purpose of the R package is to be installed and used
+locally, you can give it a quick [online test
+run](http://51.141.234.162/shiny/DemoPERK/) to determine whether it’s
+right for you before installing it. With just 3 commands, you can
+install it and begin using it if you like what you see:
+
+``` r
+install.packages('PERK')
+library('PERK')
+run_app()
+```
+
+For an introduction to the package, step-by-step instructions on getting
+started, and more information on the different ways you can use the
+package
+[*PERK-Walkthrough*](https://jkkishore85.github.io/PERK/articles/PERK-Walkthrough.html)
+tutorial.
+
+You can install the development version of `PERK` from GitHub through
+following command.
+
+``` r
+install.packages("remotes")
+library(remotes)
+install_github("jkkishore85/PERK")
+```
+
+## Citation and Contributors
+
+Please cite this article from this
+[Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4306129)
+if the package helps you with your work in any way that justifies it.
+
+This work is a part of the Wastewater Fingerprinting for Public Health
+Assessment (ENTRUST) project funded by Wessex Water and EPSRC IAA (grant
+no. EP/R51164X/1).
+
+## Disclaimer
+
+We accept no liability for any errors in the data or its publication
+here. Use this data at your own risk.
